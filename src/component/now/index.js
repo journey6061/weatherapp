@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Now =()=>{
+const Now =(props)=>{
     return(
-    <div>this is now</div>
+    <div>this is now {props.weatherValue}</div>
     )
 }
 
